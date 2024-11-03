@@ -1,0 +1,72 @@
+
+  @media (max-width: 768px) {
+    .thumbnail {
+      width: 30px;  
+      }
+  }
+  #stock-tag{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+  @media (max-width: 480px) {
+    .thumbnail {
+      width: 30px;
+    }
+    #info{
+      margin-top: 1.2rem;
+    }
+    #title{
+      width: 100px;
+    }
+  }
+  .custom-tabs .ant-tabs-tab {
+    color: black !important;
+    transition: color 0.3s ease-in-out;
+  }
+  .ant-tabs-tab-btn{
+    color: rgb(0, 0, 0) !important;
+  }
+ 
+  .tab-content {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .features-section {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 40px 0;
+  }
+  
+  .feature-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .feature-card h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .feature-card p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: #ffa500; /* Orange color for icons */
+  }
+  

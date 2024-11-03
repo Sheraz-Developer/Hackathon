@@ -1,0 +1,64 @@
+/* Cart.css */
+.card-body {
+    padding: 10px; /* Reduced padding for more compact design */
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 8px; /* Reduced space below the title */
+  }
+  
+  .card p {
+    margin: 4px 0; /* Reduced space between paragraphs */
+  }
+  
+  .card-img-top {
+    border-radius: 8px; /* Optional for a modern look */
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .bg-light {
+    padding: 20px; /* Adjust spacing in total section */
+  }
+  
+  .mt-4 {
+    margin-top: 1rem !important; /* Reduce top margin */
+  }
+  .spin-c{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* Cart.css */
+.quantity-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-body {
+    padding: 15px; /* Adjusted padding for more space */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card p {
+    margin: 5px 0; /* Increased spacing between text */
+  }
+  
+  .card-img-top {
+    border-radius: 5px;
+  }
+@media (max-width:500px) {
+    #no-img{
+        width: 100%;
+        height: auto;
+    }
+    
+}    

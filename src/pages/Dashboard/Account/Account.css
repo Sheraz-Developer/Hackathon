@@ -1,0 +1,73 @@
+/* General Styles */
+.account-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Cover Photo */
+.cover-photo {
+  width: 100%;
+  height: 40vh;
+  background: url("https://img.freepik.com/premium-photo/black-background-with-black-white-image-black-background_662214-604213.jpg") center/cover no-repeat; /* Cover Photo URL */
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Avatar */
+.profile-avatar {
+  margin-left: 1.2rem;
+  border: 10px solid rgb(255, 255, 255);
+  position: absolute;
+  bottom: -60px;
+  background-color: white;
+}
+
+/* Profile Info */
+.profile-info {
+  width: 100%;
+  padding: 80px 20px 20px; /* Spacing to account for avatar overlap */
+  background-color: #f0f2f5;
+}
+
+.profile-info .ant-typography-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-info .ant-typography {
+  color: #555;
+  font-size: 16px;
+}
+
+.account-info {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Divider */
+.ant-divider {
+  margin: 20px 0;
+}
+
+/* Logout Button */
+.logout-button {
+  margin-top: 20px;
+  background-color: #ff0000 !important;
+  color: white;
+  border: none;
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #e70a0a;
+}

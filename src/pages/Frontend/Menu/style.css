@@ -1,0 +1,265 @@
+.menu-container {
+  padding: 20px;
+}
+
+.filter-section {
+  padding: 15px;
+  border-right: 1px solid #ece9e9;
+}
+
+.filter-item {
+  margin-bottom: 20px;
+}
+
+.products-section {
+  margin-top: 20px;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#card {
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  
+}
+
+@media (max-width: 395px) {
+  #card {
+    width: 90% !important;
+  }
+  .card-footer{
+    padding: 0 0.8rem !important;
+  }
+}
+#eye {
+  cursor: pointer;
+  position: absolute;
+  bottom: 25%;
+  right: 11%;
+}
+
+.card-img img {
+  cursor: pointer;
+  width: 100%;
+  height: 200px;
+}
+
+.card-img img {
+  border-radius: 5px;
+}
+
+/* From Uiverse.io by catraco */
+.heart-container {
+  --heart-color: rgb(255, 91, 137);
+  position: relative;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.heart-container .checkbox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.heart-container .svg-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-container .svg-outline,
+.heart-container .svg-filled {
+  fill: var(--heart-color);
+  position: absolute;
+}
+
+.heart-container .svg-filled {
+  animation: keyframes-svg-filled 1s;
+  display: none;
+}
+
+.heart-container .svg-celebrate {
+  position: absolute;
+  animation: keyframes-svg-celebrate 0.5s;
+  animation-fill-mode: forwards;
+  display: none;
+  stroke: var(--heart-color);
+  fill: var(--heart-color);
+  stroke-width: 2px;
+}
+
+.heart-container .checkbox:checked ~ .svg-container .svg-filled {
+  display: block;
+}
+
+.heart-container .checkbox:checked ~ .svg-container .svg-celebrate {
+  display: block;
+}
+
+@keyframes keyframes-svg-filled {
+  0% {
+    transform: scale(0);
+  }
+
+  25% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1);
+    filter: brightness(1.5);
+  }
+}
+
+@keyframes keyframes-svg-celebrate {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.5);
+  }
+
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+    display: none;
+  }
+}
+.text-decoration-none {
+  text-decoration: none !important;
+}
+.pg-header {
+  padding: 0.5rem;
+  border-bottom: 1px solid #f0efef;
+  margin-bottom: 1.2rem;
+}
+.ant-slider-track {
+  background-color: black !important;
+}
+.ant-slider-handle::after {
+  box-shadow: 0 0 0 2px #000000 !important;
+}
+.ant-slider-dot {
+  border-color: #000000 !important;
+}
+.ant-collapse-header {
+  background-color: rgb(255, 255, 255) !important;
+  border: none !important;
+}
+.t {
+  color: #474747;
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #fff; /* White background for a clean look */
+  border-bottom: 1px solid #ddd; /* Light border for subtle separation */
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.banner-text {
+  flex: 1;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.banner-text p {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #1d3557;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #FF6F61;
+  transform: scale(1.05);
+}
+
+.banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (min-width: 576px) {
+  #card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 768px) {
+  #card {
+    width: 32%;
+  }
+}
+
+.card-info {
+  margin-top: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .filter-section {
+    height: auto;
+  }
+}

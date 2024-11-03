@@ -1,0 +1,19 @@
+.ant-steps-item-icon {
+  background-color: #f7931e !important;
+  border-color: #f7931e !important;
+}
+.ant-steps-item-icon svg {
+  color: #ffffff !important ;
+}
+.ant-steps-item-tail::after {
+  background-color: #f7931e !important;
+}
+.add-btn{
+    color: #ffffff !important;
+    background-color: #f7931e !important;
+}
+.add-btn:hover{
+  background-color: #FF6F61 !important;
+  color: #ffffff !important;
+  border: none !important;
+}

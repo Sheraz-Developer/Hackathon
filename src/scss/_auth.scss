@@ -1,0 +1,66 @@
+/* Ensure the body takes up the full viewport height */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Container for the login page */
+.login-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Style for the form container */
+.login-form-container {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+}
+
+/* Form styling */
+.login-form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-form-container button {
+  margin-bottom: 1.2rem;
+  padding: 10px;
+  background-color: #1d3357;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form-container button:hover {
+  background-color: #f54868;
+}
+
+/* Style for the image container */
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .login-page {
+    flex-direction: column;
+  }
+
+  .login-image-container {
+    display: none; /* Hide the image on smaller screens */
+  }
+}
